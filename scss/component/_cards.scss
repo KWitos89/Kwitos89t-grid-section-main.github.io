@@ -1,0 +1,43 @@
+.card {
+  padding: 2rem;
+  color: var(--clr-fonts);
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 2rem var(--Very-dark-grayish-blue);
+}
+
+
+img {
+  border-radius: 50%;
+}
+header {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.box_1 {
+  background: url(../../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 7rem;
+  background-size: 11rem;
+  background-color: var(--Moderate-violet);
+
+  @media (max-width:814px){
+    background-size: 5rem;
+    background-position: top right 1rem;
+  }
+}
+.box_2 {
+  background-color: var(--Very-dark-grayish-blue);
+}
+.box_3,
+.box_5 {
+  color: var(--Very-dark-blackish-blue);
+}
+.box_4 {
+  background-color: var(--Very-dark-blackish-blue);
+}

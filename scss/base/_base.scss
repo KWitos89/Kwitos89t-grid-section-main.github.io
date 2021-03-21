@@ -1,0 +1,13 @@
+body {
+  position: relative;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: var(--Light-grayish-blue);
+  padding: 10rem 5rem;
+  height: 100%;
+
+  @media (max-width: 68.5em) {
+    padding: 0;
+    padding-top: 10rem;
+    padding: 2rem;
+  }
+}
